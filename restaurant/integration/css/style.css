@@ -1,0 +1,29 @@
+.inlineb{
+  display: inline-block;
+  margin: 20px
+}
+nav{
+  position: absolute;;
+  right: 25px;
+}
+#logo{
+  position: relative;
+  margin: auto;
+  width: 200px;
+  display: block;
+}
+#logo  img{
+  width: 200px;
+  display: block;
+  margin: auto;
+  position: absolute;
+}
+#logo div{
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-left: 100px solid transparent;
+  display: block;
+  margin-top: auto;
+  position: absolute;
+}
