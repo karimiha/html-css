@@ -1,0 +1,60 @@
+.inlineb{
+  display: inline-block;
+  margin: 20px
+}
+header:after{
+  font-size: 50px;
+  content:"";
+  background-color: red;
+  height: 15px;
+  width: 15px;
+}
+nav{
+  position: absolute;
+  right: 25px;
+}
+#logo{
+  position: relative;
+  margin: auto;
+  width: 200px;
+  display: block;
+  padding-bottom: 80px;
+}
+#logo img{
+  z-index: 10;
+  width:160px;
+  left: -20px;
+  display: block;
+  margin: auto;
+  position: absolute;
+}
+
+
+#logo div {
+	width: 0;
+	height: 0;
+	border-top: 75px solid red;
+	border-left: 75px solid transparent;
+  border-bottom: 75px solid transparent;
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 12px;
+}
+
+body img{
+  width: 100%;
+}
+ .pBloque{
+   width: 50%;
+   display: inline-block;
+ }
+ h2{
+   text-align: center;
+ }
+ p{
+   padding: 50px;
+   text-align: center;
+   font-size: 15px;
+
+ }

@@ -1,0 +1,33 @@
+body{
+  background-color: #950000;
+}
+p{
+  color:white;
+}
+h1{
+  text-align: center;
+  color:white;
+  font-size:60px;
+  font-family: cursive;
+  padding-top:50px;
+}
+#logo1{
+  padding-bottom:60px;
+}
+#photo{padding-bottom: 80px;
+
+
+#menu
+
+
+.inlineb{
+  display: inline-block;
+  margin: 20px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 30px;
+}
+section{
+  position: absolute;
+  right: 25px;
+}

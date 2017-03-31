@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/stylenew.css">
+    <title>formulair</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet">
+  </head>
+
+    <body>
+      <!--enveloppe-->
+      <div id="wrapper">
+        <!-- en-tête -->
+        <header>
+          <img src="img/sidney.jpg" alt="ville de sidney">
+          <h1><a href="index.html">Accueil</a></h1>
+          <nav>
+            <ul>
+              <li><a href="indexnew.html">accueil</a></li>
+              <li><a href="formulaire.html"> nav 2</a></li>
+              <li><a href="#">nav 3</a></li>
+              <li><a href='#'>nav 4</a></li>
+              <li><a href="#">nav 5</a></li>
+            </ul>
+          </nav><!--fermeture de la nav-->
+        </header><!--fermeture de l'en-tête-->
+      <div id="content">
+        <h2>formulaire</h2>
+        <form class="" action="toto.php" method="post">
+          <fieldset>
+            <legend>Apropos des css</legend>
+            <p>savez vous ce que dire css?</p>
+            <input type="radio" name="css" value="oui" id="oui" checked="checked">
+            <label for="oui"class="inline">oui</label>
+            <input type="radio" name="css" value="non" id="non">
+            <label for="non" class="inline">non</label>
+            <label for="utilise"> si oui utiliser vous:</label>
+            <select class="" name="utilise" id="utilise">
+              <option value="toujours">toujours</option>
+              <option value="parfois">parfois</option>
+              <option value="jamais">jamais</option>
+
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>vos coordonnées</legend>
+            <label for="email">votre email</label>
+            <input type="email" name="email" value=""placeholder="email@email.com" maxlength="50" size="30">
+            <label for="commentairs">vos commentairs</label>
+            <textarea name="commentairs" rows="8" cols="40" id="commentairs"></textarea>
+          </fieldset>
+          <p>
+            <input type="submit" name="" value="envoyer">
+            <input type="reset" name="" value="annuler">
+          </p>
+
+        </form>
+
+      </div>  <!-- fermeture content -->
+      <aside>
+        <div class="">
+          <h2>titre 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="">
+          <h2>titre 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </aside><!-- fermeture sidebar -->
+      <footer>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </footer><!--fermeture de pied de la page-->
+    </div><!--fermeture de wrapper-->
+  </body>
+  </html>

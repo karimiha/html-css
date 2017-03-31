@@ -1,0 +1,27 @@
+header > div {
+  background-image: url('../img/univers9.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+header{
+  overflow: hidden;
+  width: 90%;
+  height: 400px;
+  background-color: red;
+}
+
+header img{
+  width: 200px;
+  display: block;
+  margin: auto;
+
+}
+.rotate{
+-ms-transform:rotate(-30deg);
+-wekit-transform:rotate(-30deg);
+transform:rotate(-30deg);
+}
+.rotate > div{
+  transform: rotate(30deg);
+}
